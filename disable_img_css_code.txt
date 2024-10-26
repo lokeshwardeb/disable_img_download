@@ -1,0 +1,10 @@
+img {
+  -webkit-touch-callout: none; /* Prevents callout menu (like "Save Image" on iOS) */
+  -webkit-user-select: none; /* Prevents text selection (for Webkit browsers) */
+  -khtml-user-select: none; /* Prevents text selection (for KHTML, old browsers) */
+  -moz-user-select: none; /* Prevents text selection (for Mozilla browsers) */
+  -ms-user-select: none; /* Prevents text selection (for Internet Explorer) */
+  user-select: none; /* Prevents text selection (standard) */
+  pointer-events: none; /* Disables all mouse events (e.g., clicks) */
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* Removes tap highlight on iOS */
+}
